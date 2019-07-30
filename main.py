@@ -25,7 +25,6 @@ async def cynthia():
         await sd_client.find_game(ladder, team)
 
 #        winner = pokemon_battle(sd_client, ladder)
-
 #        break
 
 
