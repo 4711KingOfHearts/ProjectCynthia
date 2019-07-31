@@ -5,6 +5,10 @@ Developed with Python 3.7.3
 
 ## Setup/installation
 
-Clone the repository with `https://github.com/4711KingOfHearts/ProjectCynthia.git`
+Clone the repository with: `https://github.com/4711KingOfHearts/ProjectCynthia.git`
 
-Install the required Python3 packages with `pip install -r requirements.txt`.
+Setup the project as a new Python 3 virtual environment: `python3 -m venv ProjectCynthia`
+
+Activate the newly created virtual environment: `cd ProjectCynthia; source bin/activate`
+
+Install the required Python3 packages with: `pip install -r requirements.txt`.
