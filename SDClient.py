@@ -59,8 +59,6 @@ class SDClient:
 #            raise LoginError("Could not log-in")
 
     async def find_game(self, ladder, team):
-#        message = [ "/utm {}".format(team) , "/search {}".format(ladder)]
-#        await self._send_message('', message)
         message1 = ["/utm {}".format(team)]
         await self._send_message('', message1)
         message2 = ["/search {}".format(ladder)]

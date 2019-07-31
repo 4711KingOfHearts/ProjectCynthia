@@ -3,7 +3,7 @@ import asyncio
 import websockets
 
 from SDClient import SDClient
-#from SDBattle import pokemon_battle
+from SDBattle import pokemon_battle
 
 from environs import Env
 
@@ -24,9 +24,8 @@ async def cynthia():
     while True:
         await sd_client.find_game(ladder, team)
 
-#        winner = pokemon_battle(sd_client, ladder)
+        outcome = await pokemon_battle(sd_client, ladder)
 
-        break
 
 
 asyncio.get_event_loop().run_until_complete(cynthia())
