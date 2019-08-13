@@ -20,3 +20,4 @@ ProjectCynthia uses the `environs` package to read its configuration from the `.
 SD_USERNAME="username"
 SD_PASSWORD="password
 ```
+
